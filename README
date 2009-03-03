@@ -1,0 +1,95 @@
+ogle_gui
+------------------------------------------
+GTK2 frontend for the Ogle DVD player.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  gtk2-x11-runtime-2.6.10-1
+  libglade2-2.5.1-1
+  ogle-0.9.2-1
+  xorg-x11-bin-dlls-6.8.2.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://www.dtek.chalmers.se/groups/dvd/
+
+Canonical download:
+  http://www.dtek.chalmers.se/groups/dvd/dist/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ogle_gui-0.9.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./ogle_gui-0.9.2-X.sh all
+
+This will create:
+  /usr/src/ogle_gui-0.9.2-X-src.tar.bz2
+  /usr/src/ogle_gui-0.9.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ogle/ogle_gui.exe
+  /usr/share/doc/Cygwin/ogle_gui-0.9.2.README
+  /usr/share/doc/ogle_gui-0.9.2/ABOUT-NLS
+  /usr/share/doc/ogle_gui-0.9.2/AUTHORS
+  /usr/share/doc/ogle_gui-0.9.2/ChangeLog
+  /usr/share/doc/ogle_gui-0.9.2/COPYING
+  /usr/share/doc/ogle_gui-0.9.2/INSTALL
+  /usr/share/doc/ogle_gui-0.9.2/NEWS
+  /usr/share/doc/ogle_gui-0.9.2/README
+  /usr/share/locale/da/LC_MESSAGES/ogle_gui.mo
+  /usr/share/locale/de/LC_MESSAGES/ogle_gui.mo
+  /usr/share/locale/fr/LC_MESSAGES/ogle_gui.mo
+  /usr/share/locale/nl/LC_MESSAGES/ogle_gui.mo
+  /usr/share/locale/pt/LC_MESSAGES/ogle_gui.mo
+  /usr/share/locale/sv/LC_MESSAGES/ogle_gui.mo
+  /usr/share/ogle_gui/angle.xpm
+  /usr/share/ogle_gui/enter.xpm
+  /usr/share/ogle_gui/fastforward.xpm
+  /usr/share/ogle_gui/go_up.xpm
+  /usr/share/ogle_gui/menus.xpm
+  /usr/share/ogle_gui/ogle.xpm
+  /usr/share/ogle_gui/ogle_gui.glade
+  /usr/share/ogle_gui/ogle_gui.glade2
+  /usr/share/ogle_gui/rewind.xpm
+  /usr/share/ogle_gui/skip_backwards.xpm
+  /usr/share/ogle_gui/skip_forwards.xpm
+  /usr/share/ogle_gui/stock_down_arrow.xpm
+  /usr/share/ogle_gui/stock_first.xpm
+  /usr/share/ogle_gui/stock_last.xpm
+  /usr/share/ogle_gui/stock_left_arrow.xpm
+  /usr/share/ogle_gui/stock_pause.xpm
+  /usr/share/ogle_gui/stock_right_arrow.xpm
+  /usr/share/ogle_gui/stock_stop.xpm
+  /usr/share/ogle_gui/stock_timer.xpm
+  /usr/share/ogle_gui/stock_timer_stopped.xpm
+  /usr/share/ogle_gui/stock_up_arrow.xpm
+  /usr/share/ogle_gui/stock_volume.xpm
+  /usr/share/ogle_gui/subpicture.xpm
+
+------------------
+
+Port Notes:
+
+----- version 0.9.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
