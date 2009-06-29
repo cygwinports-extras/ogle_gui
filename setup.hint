@@ -1,4 +1,4 @@
 category: Gnome Video
-requires: cygwin gtk2-x11-runtime libglade2 ogle libX11_6
+requires: gtk2-x11-runtime libglade2 ogle libX11_6
 sdesc: "GTK2 frontend for the Ogle DVD player"
 ldesc: "GTK2 frontend for the Ogle DVD player"
